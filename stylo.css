@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background-image: url(./img/fundo_astronomia.jpg);
+}
+
+
+
+
+.container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+header {
+    z-index: 1;
+    background-color: #000000;
+    height: 80px;
+    width: 100vw;
+}
+
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu-header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    transition: 0.3s;
+    color: rgb(72, 7, 126);
+    text-shadow: rgb(72, 7, 126)
+}
+
+#btn-mobile{
+    display: none;
+}
+
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    gap: 0.5rem;
+    padding-top: 105px ;
+}
+
+#carouselExampleInterval .carousel-item img {
+    height: 600px;
+}
+
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 40px;
+}
+
+.whatsapp img {
+    height: 60px;
+} 
+
+.botao {
+    background-color: rgb(72, 7, 126);
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5 !important;
+    border: solid 1px rgb(72, 7, 126);
+   
+}
+.botao:hover {
+    font-size: 1.6 em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #ffff;
+}
+
+.menu-barras {
+    display: none;
+}
+
+.banner {
+    background-image: url(../img/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo-banner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-banner {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+
