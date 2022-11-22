@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"> </script>
+    <link rel="shortcut" href="./img/ico/brazil-.ico">
+    <title>. : : StellarAstronomy | Astronomia</title>
+</head>
+<body>
+     <!-- Aula 27/09/2022-->
+     <!-- Ínicio do meu repositório-->
+     <header>
+        <div class="container-grid conteudo-header">
+            <img class="logo" src="./img/logo_teste_paint.png" alt="logo Planetas">
+                <nav id="menu-header" class="menu-header">
+                    <a href="#" title="Inicio da página">Inicio</a>
+                    <a href="produtos.html">Galeria</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="streaming.html">Streaming</a>
+                    <a href="teoria.html">Teoria</a>
+                </nav>
+            <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+                <i id="icone-menu" class="fas fa-bars"></i>
+            </a>
+        </di v>
+    </header>
+<!-- Fim do menu responsivo-->
+
+<!-- Início Form Contato-->
+<div class="contato">
+    <div class="container">
+        <div class="row">
+            <!-- início da tag section com texto de contato -->
+            <section class="col-12" >
+            <h2>Entre em contato conosco!</h2>
+              <p>Para dúvidas, elogios e reclamações.</p>
+            </section>
+            <!--fim da tag section com o texto de contato-->
+            <!--Inicio formulário -->
+        <div class="col-md-6">
+            <div class="well well sm">
+                <form class="form horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-left header">Preencha suas informações!
+                        </legend>
+                        <div class="form group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text"
+                                placeholder="Insira seu primeiro nome"
+                                class="form-control" required>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text"
+                                placeholder="Insira seu último nome"
+                                class="form-control" required>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="email"
+                                placeholder="Insira seu email"
+                                class="form-control" required>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text"
+                                placeholder="Insira seu telefone"
+                                class="form-control" required>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea id="message" name="message" 
+                                placeholder="Insira sua mensagem que retornaremos em até 2 dias úteis" class="form-control" rows="7"
+                                required></textarea>
+                            </div>
+
+                                
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text center">
+                                <button type="submit" class="formbutton">Enviar</button>
+                            </div>
+
+                        </div>
+                </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+            <!--fim formulário-->
+            <div class="col-md-6">
+                <div> 
+                    <div class="panel panel-default">
+                        <div class="text-center header">Onde Estamos localizados</div>
+                        <div class="panel-body text-center"> 
+                        <div>Rua João Cocorullo Júnior, 43 <br />
+                        Centro, São Paulo - SP - CEP 18103-445</div>
+
+                        
+                        </div>
+                            <div class="map"> 
+                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.361856749334!2d-47.41770418440944!3d-23.411292161953963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5f2205b332e9%3A0xb1a00ce24f7775f1!2sR.%20Jo%C3%A3o%20Cocorulo%20J%C3%BAnior%20-%20Jardim%20Jatoba%2C%20Sorocaba%20-%20SP%2C%2018103-445!5e0!3m2!1spt-BR!2sbr!4v1669077436321!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
+                            </div>
+                    </div>
+                </div>
+            </div>       
+             
+                <!-- Inicio footer -->
+                <footer class="rodape"> 
+                    <div class="container"> 
+                        <div class="row m-0"> 
+                            <!-- início da logomarca -->
+                            <div class="col-md-4">
+                                <figure> 
+                                    <img src="./img/logo_teste_paint.png" alt="logo-rodape" width="40%">
+                                </figure>
+                            </div>
+                            <!-- fim da logomarca -->
+                            <!-- início do texto rodape-->
+                            <div class="col-md-4">
+                                <div class="info-contato">
+                                    <p>email:</p>
+                                    <p><a href="mailto : example.corp.net">thiagom</a></p><br>
+                                    <p>Endereço:</p>
+                                    <p>Rua João Cocorullo Júnior, 43</p><br> 
+                                    <p>Telefone:</p>
+                                    <p>+55 (15) 99132-5799</p>
+
+                                </div>
+                            </div>
+                            <!-- fim do texto-->
+                            <!-- inicio das midias sociais -->
+                            <div class="col-md-4"> 
+                                <figure class="redes-sociais">
+                                    <a href="https://facebook.com"><img src="./img/face.png" ></a>
+                                    <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                    <a href="https://youtube.com"><img src="./img/youtube.png">  </a>
+                                    <a< href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                                </figure>
+                                <br>
+                                <!-- Repetir opções do menu do Site 
+                                <a href="index.html">Home</a><br>
+                                <a href="#">Jogos</a>
+                                <a href="#">Produtos</a>
+                                <a href="#">Contato</a>-->
+                                
+                            </div>
+                                <!-- fim das midias sociais -->
+                                <div class="col-12">
+                                    <p class="direitos">Direitos Autorais</p>
+                                </div>
+                                <!-- fim direitos autorais -->
+                         </div> 
+                     </div>
+                </footer>
+             <!-- fim texto galeria-->
+</body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script> 
+    <!--Script depende de token API Google Maps-->
+    <!-- <script type="text/javascript" src="./js/script_menu_js"></script> -->
+
+    <script type="text/javascript" src="./js/map.js"></script> 
+   
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+</html> 
