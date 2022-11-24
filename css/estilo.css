@@ -89,13 +89,22 @@ header {
     transform: rotate(-135deg);
     top: -7px;
 }
- #h1 {
+
+
+
+.título{
+    padding-left: 40%;
+    background-color: yellow;
+    color: rgb(72, 7, 126);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    color: #000;
-    background-color: rgb(72, 7, 126);
+}
+   
+
     
- }
+
+   
+    
+ 
 
 #btn-mobile{
     display: none;
@@ -105,7 +114,7 @@ header {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
-    padding-top: 105px ;
+     
 }
 
 #carouselExampleInterval .carousel-item img {
@@ -408,6 +417,7 @@ a:hover {
 .galeria h2 {
     text-align: center;
     font-size: 24px;
+    color: #000;
 }
 .galeria p {
     text-align: center;
@@ -423,12 +433,13 @@ a:hover {
 /*Início CSS footer*/
 
 footer {
-    height: 80px;
+    height: auto;
     background-color: rgb(72, 7, 126);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 footer span {
@@ -444,6 +455,9 @@ footer span {
     background-color: rgb(72, 7, 126);
     padding-top: 40px;
     padding-bottom: 40px;
+    width: 100%;
+    padding-left: 15%;
+    
 }
 
 .sobre-projetos h2 {
@@ -482,17 +496,21 @@ footer span {
     text-align: justify;
 }
 
-info {
+.info {
     background-image: url(//StellarAstronomy/img/fundo_astronomia.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 40px 0;
+    align-items: center;
+    background-color: #000;
+    padding-left: 15%;
 }
 
 .conteudo-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card-info {
@@ -514,12 +532,13 @@ info {
     width: 250px;
     padding: 30px 0;
     text-align: center;
+    width: 100%;
 }
 
-.endereco {
+/*.endereco {
     padding: 40px 0;
-    background-image: url(../img/imagem-fundo-ranking.jpg);
-}
+    background-color: rgb(235, 2, 2);
+}*/
 
 .conteudo-endereco {
     margin: 0 auto;
